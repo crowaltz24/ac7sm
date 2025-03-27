@@ -1,0 +1,125 @@
+{
+    "axes": {
+        "x": {
+            "deadzone": 0.1,
+            "sensitivity": 1.0
+        },
+        "y": {
+            "deadzone": 0.1,
+            "sensitivity": 1.0
+        },
+        "twist": {
+            "deadzone": 0.3,
+            "sensitivity": 1.0
+        },
+        "throttle": {
+            "deadzone": 0.0,
+            "sensitivity": 1.0
+        },
+        "hat_x": {
+            "deadzone": 0.0,
+            "sensitivity": 1.0
+        },
+        "hat_y": {
+            "deadzone": 0.0,
+            "sensitivity": 1.0
+        }
+    },
+    "axis_mapping": {
+        "roll": {
+            "source": "x",
+            "scale": 1.0
+        },
+        "pitch": {
+            "source": "y",
+            "scale": 1.0
+        },
+        "yaw": {
+            "source": "twist",
+            "scale": 1.0
+        },
+        "throttle": 3,
+        "x": 0,
+        "y": 1,
+        "twist": 2,
+        "hat_x": {
+            "source": "hat_x",
+            "scale": 1.0
+        },
+        "hat_y": {
+            "source": "hat_y",
+            "scale": 1.0
+        }
+    },
+    "bindings": {
+        "standard": {
+            "fire_gun": {
+                "button": 1,
+                "xusb": "XUSB_GAMEPAD_A"
+            },
+            "fire_missile": {
+                "button": 0,
+                "xusb": "XUSB_GAMEPAD_B"
+            },
+            "switch_weapon": {
+                "button": 5,
+                "xusb": "XUSB_GAMEPAD_X"
+            },
+            "change_target": {
+                "button": 3,
+                "xusb": "XUSB_GAMEPAD_Y"
+            },
+            "radar_toggle": {
+                "button": 11,
+                "xusb": "XUSB_GAMEPAD_BACK"
+            },
+            "change_view": {
+                "button": 9,
+                "xusb": "XUSB_GAMEPAD_RIGHT_THUMB"
+            },
+            "pause": {
+                "button": 10,
+                "xusb": "XUSB_GAMEPAD_START"
+            }
+        },
+        "combos": {
+            "flares": {
+                "trigger": 4,
+                "xusb": [
+                    "XUSB_GAMEPAD_LEFT_THUMB",
+                    "XUSB_GAMEPAD_RIGHT_THUMB"
+                ],
+                "buttons": [
+                    4
+                ]
+            },
+            "high_g_turn": {
+                "trigger": 2,
+                "disable_axes": [
+                    "throttle"
+                ],
+                "analog": {
+                    "left_trigger": 1.0,
+                    "right_trigger": 1.0
+                },
+                "buttons": [
+                    5
+                ]
+            }
+        }
+    },
+    "controls": {
+        "throttle": {
+            "type": "axis",
+            "source": "throttle"
+        },
+        "yaw": {
+            "type": "axis",
+            "source": "twist"
+        }
+    },
+    "kill_switch": {
+        "button": 6,
+        "key": "`"
+    }
+}
