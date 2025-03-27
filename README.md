@@ -1,6 +1,6 @@
 # AC7SM - Ace Combat 7 Stick Mapper
 
-A flight stick to virtual controller mapper script designed specifically for Ace Combat 7, which has notoriously poor HOTAS support. This script lets you use your flight stick (tested with Logitech Extreme 3D Pro) properly in the game. The main benefit of this script over just adjusting your config file is the ability to modify deadzone and sensitivity.
+A flight stick to virtual controller mapper script designed specifically for Ace Combat 7, which has notoriously poor HOTAS support. This script lets you use your flight stick (tested with Logitech Extreme 3D Pro) properly in the game. The main benefit of this script over just adjusting your config file is the ability to modify deadzone and sensitivity, as well as one-button High-G turns, making PSMs easier to execute.
 
 ## Features
 
