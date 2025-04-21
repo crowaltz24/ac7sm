@@ -1,6 +1,6 @@
 # AC7SM - Ace Combat 7 Stick Mapper
 
-A flight stick to virtual controller mapper script designed specifically for Ace Combat 7, which has notoriously poor HOTAS support. This script lets you use your flight stick (tested with Logitech Extreme 3D Pro) properly in the game. The main benefit of this script over just adjusting your `input.ini` file is the ability to modify deadzone and sensitivity, as well as one-button High-G turns, making PSMs easier to execute.
+A flight stick to virtual controller mapper script designed specifically for Ace Combat 7, which has notoriously poor HOTAS support. This script lets you use your flight stick (tested with Logitech Extreme 3D Pro) properly in the game. The main benefit of this script over just adjusting your `input.ini` file is the ability to modify deadzone and sensitivity, as well as one-button High-G turns, making PSMs possible to execute.
 
 ## Features
 
@@ -80,13 +80,13 @@ Edit `config.json` to customize:
 
 ## Known Issues
 
-- Change view button (RIGHT_THUMB) not working properly
+- Change view button (`RIGHT_THUMB`) not working properly
 - Does not recognize joystick disconnection
 - Having vjoy installed MAY cause problems with stick input detection
 
 ## To Do
 
-- Fix change_view button functionality
+- Fix `change_view` button functionality
 - Recognize and account for joystick disconnection
 - Add axis curve customization (maybe? I'm interested)
 - Figure out if it's even possible and worthwhile to bother circumventing vjoy input detection
