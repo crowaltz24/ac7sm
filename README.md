@@ -82,12 +82,15 @@ Edit `config.json` to customize:
 
 - Change view button (RIGHT_THUMB) not working properly
 - Does not recognize joystick disconnection
+- Having vjoy installed MAY cause problems with stick input detection
 
 ## To Do
 
 - Fix change_view button functionality
 - Recognize and account for joystick disconnection
-- Add axis curve customization (maybe?)
+- Add axis curve customization (maybe? I'm interested)
+- Figure out if it's even possible and worthwhile to bother circumventing vjoy input detection
+- OpenTrack support for head tracking? (very enticing but I messed around with this before and it seems unlikely. Might look into pre-existing projects for this)
 - Specific support for additional HOTAS devices (Probably not happening)
 
 ## Usage Tips
